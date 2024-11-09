@@ -37,6 +37,10 @@ namespace MyProj {
       var titanic = new Ship(15, 10);
       bool isTitanicWorthIt = titanic.isWorthIt();
       Console.WriteLine(isTitanicWorthIt);
+
+
+      // Waits until sth is entered   
+      Console.ReadLine();
     }
   }
 }
